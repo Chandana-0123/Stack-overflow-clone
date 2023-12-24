@@ -1,0 +1,108 @@
+.form-section{
+    min-height: 100vh;
+    margin: 0% auto;
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.form-container-2{
+    min-width: 60%;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.form-container-2 form{
+    width: 80%;
+    padding: 20px;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: 0 10px 25px rgb(0 0 0 / 5%)
+    0 20px 48px rgb(0 0 0 / 5%)
+    0 1px 4px rgb(0 0 0 / 5%);
+}
+
+.form-container-2 form label input{
+    padding: 30px;
+    width: calc(100% - 30px);
+    border: solid 1px #0000003e;
+    font-size: 15px;
+}
+
+.form-container-2 form label:nth-child(4){
+    display: flex;
+}
+
+.form-container-2 form label:nth-child(4) input{
+    width: 15%;
+    margin: 13px 0px;
+    align-items: right;
+}
+
+.form-1{
+    width: 300px;
+}
+
+.form-2{
+    width: 300px;
+}
+
+.form-3 input {
+    margin: 10px;
+    font-size: 25px;
+}
+
+.form-3 button {
+   
+    font-size: 25px;
+}
+
+.form-4 input {
+    margin: 10px;
+    font-size: 25px;
+}
+
+.form-4 button {
+    font-size: 25px;
+}
+
+.chatbot{
+    position:absolute;
+    bottom: 0%;
+    left: 85%;
+    background-color: #ef8236;
+    border: none;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 13px;
+
+}
+
+.chat{
+    float: right;
+}
+
+@media screen and (max-width: 1020px) {
+    .form-container-2 .form-section .form-1 .form-2 .form-3 .form-4{
+      font-size: 5px;
+      width: 40%
+    }
+  }
+
+
+@media screen and (max-width: 1020px) {
+    .chat{
+      width: 40%;
+      float: left ;
+    }
+  }
